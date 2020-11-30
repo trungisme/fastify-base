@@ -1,0 +1,25 @@
+{
+  "name": "fastify-base",
+  "version": "1.0.0",
+  "description": "Base template for Fastify Web App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "[[ $NODE_ENV == 'production' ]] && node index.js || nodemon index.js"
+  },
+  "author": "Tu-Trung-Richie Lam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fastify": "^3.8.0",
+    "fastify-helmet": "^5.0.3",
+    "fastify-plugin": "^3.0.0",
+    "fastify-static": "^3.3.0",
+    "node-fetch": "^2.6.1",
+    "point-of-view": "^4.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "standard": "^16.0.3"
+  }
+}

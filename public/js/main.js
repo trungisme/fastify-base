@@ -1,0 +1,1 @@
+alert('Web application is working!')
