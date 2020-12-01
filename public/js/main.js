@@ -1,1 +1,1 @@
-alert('Web application is working!')
+window.alert('Web application is working!')

@@ -15,11 +15,14 @@
     "fastify-helmet": "^5.0.3",
     "fastify-plugin": "^3.0.0",
     "fastify-static": "^3.3.0",
-    "node-fetch": "^2.6.1",
     "point-of-view": "^4.6.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.6",
     "standard": "^16.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trungisme/fastify-base.git"
   }
 }

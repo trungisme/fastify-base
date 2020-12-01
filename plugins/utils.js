@@ -1,8 +1,12 @@
 const fastifyPlugin = require('fastify-plugin')
-const k = require('./constants')
 
-function utils(fastify, options, next) {
-    next()
+function utils (fastify, options, next) {
+  fastify.decorate('addNum', addNumDecorator)
+  next()
+}
+
+function addNumDecorator (a, b) {
+  return a + b
 }
 
 module.exports = fastifyPlugin(utils)
